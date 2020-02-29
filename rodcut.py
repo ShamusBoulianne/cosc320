@@ -1,3 +1,6 @@
+import random
+
+
 # Translated from pseudocode found in CLRS
 def extendedBottomUpCutRod(p, n):
     r = [0]*(n+1)
@@ -20,8 +23,14 @@ def printCutRodSolution(p, n):
         n = n - rs[1][n]
 
 
-p = [0, 1, 5, 8, 9, 10, 17, 17, 20, 24, 30]
-out = extendedBottomUpCutRod(p, 10)
-print(out[0])
-print(out[1])
-printCutRodSolution(p, 10)
+# generate random price array of size 100
+# care is taken so that prices increase with length
+p = [0]
+for i in range(1, 100):
+    p.append(random.randint(p[i-1]+1, p[i-1]+i))
+n = 20
+r = extendedBottomUpCutRod(p, n)[0]
+s = extendedBottomUpCutRod(p, n)[1]
+print('p: ' + str(p))
+print('r: ' + str(r))
+print('s: ' + str(s))
