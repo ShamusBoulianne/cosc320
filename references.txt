@@ -1,1 +1,4 @@
-Dataset used: http://dx.doi.org/10.17632/gz3hztwm5p.1#file-d41f210d-7ff3-472e-bce6-77a297423845
+Text files downloaded from: http://textfiles.com/directory.html
+Datasets used: Computers, Food, Music
+
+1000 most common english words downloaded from: https://gist.github.com/deekayen/4148741
