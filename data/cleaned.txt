@@ -1,0 +1,462 @@
+
+
+
+This document contains text data from: essays.txt, hayes.txt, and songs.txt
+
+
+
+
+This Fine Arts course was the first "art & technology" course
+taught at the University of Victoria. The students involved were
+from a variety of disciplines (although, primarily visual arts
+students) and had for the most part, little or no previous
+exposure to computers. The Computer Lab at the University has, an
+array of imperious nerds intent on empire-building, 10 networked
+Sun workstations, a few slow Macintoshes, two flatbed scanners,
+one PC and some basic pagelayout and photo manipulation software
+primarily for the Macintoshes, basic sound/midi equipment, and a
+grumpy creative-writing professor who regularly shuffles down the
+hall to the faculty-lounge to wash out his teapot. This was
+enough equipment to provide glimpses of creative possibilities; I
+suspect that enough enthusiasm has been generated to warrant the
+purchase of additional equipment and software, and to have this
+course offered on a regular basis. A printing press would also be
+a nice adjunct to the existing traditional visual art
+departments. I have also offered to design and build a virtual
+text-based reality (MOO) for the Fine Arts Department.
+
+     Although characterized as a "studio course" I felt it more
+appropriate to discuss the larger issues involving technology and
+contemporary culture and minimize the importance of a through
+"knowledge" of specific software. This was accomplished with
+handouts and discussions of pertinent articles, screenings of
+appropriate films, and contemporary music. Particular attention
+was given to networks and interconnectivity in general and of
+course, the Internet. Although this was an introductory course,
+the exposure to the various resources available through the
+Internet encouraged a phenomenally rapid grasp of both digital
+dissemination and the (Unix) operating system.
+
+                    
+
+
+                    
+     Course Description: "A flirtatious romp lightly over the
+glittering periphery of digital technology. Has art and the avant
+garde disappeared from view, gradually leaking into an
+all-pervasive generalized aestheticism? Could it be that
+something that might have once been called art is alive and
+flourishing between connected networkers... unbeknownst to
+implausible and incestuous art institutions? Are there really
+still artists around who think they're making art? Are computer
+systems virtually enacting the penultimate hierarchy, enforcing
+oppressive political privilege; or are they the new democratic,
+means of representation? Has the critical art press stood still
+under a deluge of new cultural publications? Have we *all* become
+artist? These questions and more...!
+
+     "An introduction and collaborative overview and analysis of
+fairly recent, mid-range, cultural tools and their implied
+functions.
+
+     "Students are encouraged to attend all classes and optimize
+their uses of the equipment while exploring various venues
+throughout the reserved studio time following the class each
+morning. Other facilities on and off-campus will also be
+utilized.
+
+     "A reminder that an informal essay of three to four thousand
+words is required for this course. It should be "brimming with
+original insight and speculation on contemporary culture and
+technology." It may be informal in that it employs creative
+writing techniques (contemporary structures, verse, quotations,
+dialogue, illustrations, etc.). It may make reference to
+contemporary media, including the materials/sources shown in
+class.
+
+     "Also required, is an electronic-portfolio of visual and
+audio art projects. This should demonstrate some degree of
+familiarity of software and resources covered in the lab. It need
+not be an extensive or necessarily cohesive body of work. It
+should be strongly suggestive of a developing approach to
+technological media."
+
+
+
+
+
+ESSAYS:
+
+The Dematerialization of Art, Life, and Real Estate.
+
+"The highest problem of any art is to cause by appearance the
+illusion of a higher reality." - Goethe   Although Goethe's exact
+meaning is open to interpretation the computer appears to be a
+tool ready to meet the spirit of his objectives.  At least in the
+minds of many electronic artists.  The computer, particularly
+draws the attention of artists today because it epitomizes
+current technological development and offers the greatest
+potential for exploring new creative places.  If we somehow feel
+limited by our imagination, the demands of the marketplace, or
+current art theory, the computer is one element that somehow
+suggests unlimited potential.  For those who consider themselves
+to be Renaissance men and women the computer is a godsend. 
+ In addition to being a production tool the computer is a window
+on and an interface to the rest of the electronically connected
+world.  The computer as production tool switches modes and
+becomes a link to countless other artists and resource people
+throughout the world.  It only takes a little thought to consider
+the possibilities of combining these activities. 
+
+Analyzing the computer as a creative tool is similar to
+considering fire as a system to cook one's dinner.  It can
+certainly do that but it has some other dimensions and
+possibilities.  Understanding the realm of the computer and its
+companion data highways is pertinent to its effective use.  What
+context does art occupy when it uses electronic space?  What new
+creative possibilities does it present, what are its
+limitations..  audience..  temporal qualities.. style..
+control... access..  money..  appropriation..  credibility..?  Is
+there a new underlying language used to create and read
+art-cyberart.  Can traditional art fit into the cyberworld?  Can
+Venus de Milo be digitized and stored on to a hard drive and
+still be a credible work of art?  
+
+The computer as creative tool dematerializes the process of
+production.  A painter might personally mix gallons of paint,
+spend hours making canvases, wait for paint to dry, spill paint
+on his clothes or make a small rip in his canvas.  None of this
+is a factor or even a possibility when the image maker uses Adobe
+Illustrator.  Is any of this an influencing factor in creating
+culturally significant images.  Can these qualities be duplicated
+and available in another set of pull-down menus? 
+The materiality of art has always been a significant dimension,
+not only of its final form but in influencing the creative
+process.  Subtleties expressed by Russian sable and bamboo from
+the Mediterranean will present a challenge to future programmers. 
+Can computers replicate the interaction between traditional
+tools, natural materials, and chance occurrence?  The future of
+media such as metal-plate etching and lithography may be
+perpetuated because of their distinctiveness or they may simply
+become an archaic mode to be mimicked by a graphics program.  
+However, computers can give us some interesting interpretations
+of materials.  Swiftly moving granite-bodied humanoids,
+leopard-skinned fish, and chromed-metal mountains may constitute
+kitsch imagery but they prove that the computer does genuinely
+extend the dynamic range of expression. 
+
+The lack of materiality in creating art is perhaps secondary to
+the non-existence of the completed art work.  Although the
+finished piece may reside in digital form as a description in
+computer code it can only take physical form by another process
+of creation, usually mechanical.  This re-creation requires an
+interpretation of the original and removes the artist from the
+final completed piece.  Psychologically it places him/her in the
+category of being a symbolic language worker and analogous to
+being a data entry clerk. This method of production mirrors other
+mass produced consumer products and merchandise from the music
+and entertainment industry.  Questions of authenticity,
+provenance, place and uniqueness all affect the value and purpose
+of computer generated art work.  So..  can computers be used to
+create high art?  
+
+Conversely, artists can now extend their domain greatly.  Most
+significantly, they can jump the fences of the traditional
+cultural gate keepers.  Since most establishment galleries have a
+focused audience, limited budgets, and aesthetic agendas the
+opportunities for new or alternative works are limited.  Informal
+electronic galleries can post computer files with minimal cost
+and provide many more times the exposure of individual galleries. 
+Although some electronic galleries will probably develop their
+own gate-keeping qualities the diversity and the large number of
+computer installations will probably always provide unique
+opportunities for new and non-mainstream art to find an audience. 
+
+Artists that create work for the realm of computers and networks
+will find interesting discussions regarding copyright, access,
+file standards, reproduction rights, appropriation, modification,
+and methods of electronic payment.
+
+New display systems will continue to be developed for outputting
+computer files.  Since more and more programs are incorporating
+3D functions the interest in VVDs (volume visualization displays)
+is growing.  Since the promises of holography and Star Trek to
+bring live, full motion, 3D images into our living room has not
+materialized, computer controlled optical-mechanical systems are
+being developed.  "Holographic displays show some long-term
+potential but they can not be generated in real time.  Their
+field of view is fundamentally limited, and these displays
+typically change their characteristics with the angle from which
+they are viewed." As an alternative, Texas Instruments has
+produced its Omniview device that allows the display of volumes
+in volumetric space.  
+Until recently, 3D images have only been displayed on two
+dimensional CRTs and have required the inclusion of standard
+perspective cues such as shadows, texture gradients, and relative
+size comparisons.  Stereo 3D systems have relied on the use of
+special glasses to simulate surface depth but could not allow
+movement around a three dimensional object.  VVD displays use a
+rotating disk that fills the display volume, creating a surface
+point at any location in a half-round ball space.  Then by using
+laser beams directed by X, Y, & Z computer controllers, images
+can be projected to any point in the volume.  The concept is
+similar to the pictures drawn at laser shows but here 3 beams are
+used.  
+A 36 inch diameter version has been built but a 10 foot diameter
+model is feasible.  A viewer can circle the display sphere and
+see a three dimensional object from all directions while it moves
+in real time.  The display's resolution can be changed to any
+desired value by redirecting the scanning system to overlap
+points.  VVD resolution is expressed in voxels (vo lume  pi
+xels).  Early prototypes had 12,000 voxels, while current models
+display 70,000.  Three lasers of different colours can provide a
+three-colour image or they can be mixed to provide a full colour
+palette.  Presently, VVD systems require powerful computers to
+calculate 3D display data.  Originally developed for the U.S.
+Department of Defense this technology's future will probably be
+more applicable to non military purposes.  
+Proposed applications include air traffic control visualization. 
+Air traffic controllers could look into the sphere and see the
+exact location, continuous movement and distance relationship
+between circling airplanes.  Pointing to a plane with a laser
+beam would bring up its information on the computer screen. 
+Other uses include medical diagnosis, weather pattern analysis,
+and remote control of space station docking.  Visual artists
+could use this system to pre visualize sculpture projects, for
+choreography and to output 3D animation sequences.  
+
+Dial Modifiers
+Dial modifiers can be combined with the dial (D) command to perform a series 
+of operations within a single command line. For example, 
+ATDT9W1552368!@#71234; <CR> instructs the modem to use tone dialing to access 
+a number outside a PBX, wait for dial tone, dial the number 1552368, enter a 
+timed break recall, wait for quiet answer, and issue the PBX transfer code #7 
+before dialing extension number 1234, then return to the command state before 
+initiating the handshake.
+
+0-9 A B C D # * - Digits/Characters for Dialing 
+The digits/characters 0-9 A B C D # * are used to specify what numbers the 
+modem will dial. The characters A B C D # * represent specific tone pairs and 
+therefore can be used only when tone dialing is selected; these symbols are 
+ignored when pulse dialing is used.
+
+P - Pulse Dialing Method
+The P dial modifier selects the pulse method of dialing. The P modifier can be 
+issued with the dial command, or alone, to indicate the method used for 
+subsequent dialings. The factory-set method is pulse. Once this method is 
+selected, it is used until the other is chosen, or the modem is reset.
+
+T - Tone Dialing Method
+The T dial modifier selects the tone method of dialing. The T modifier can be 
+issued with the dial command, or alone, to indicate the method used for 
+subsequent dialings. Once this method is selected, it is used until the other 
+is chosen, or the modem is reset.
+
+W - Wait for Second Dial Tone
+The W dial modifier instructs the modem to wait for dial tone before 
+proceeding. If dial tone detection is not completed within the preset time 
+limit, the modem hangs up and returns the NO DIALTONE result code. Some PBXs 
+do not return a secondary proceed indication (second dial tone). The W dial 
+modifier is not effective in such systems and should not be used.
+
+, - Delay Processing of Next Character
+The comma (,) dial modifier in a dial string causes the modem to pause before 
+processing the next character or symbol in the command line. The duration of 
+the pause is determined by the value held in Register S8. The comma is 
+frequently inserted after the 9 (digit generally used to gain outside access 
+from a PBX) to allow sufficient time for the dial tone to occur before the 
+modem dials the telephone number. 
+
+@ - Wait for Quiet Answer
+The @ dial modifier instructs the modem to listen for five seconds silence 
+before continuing. The number of seconds the modem waits for silence is 
+determined by the value held in S7. This modifier is useful when dialing 
+telephone systems that produce no dial tone. If a five-second silence has not 
+been detected within the period set in S7, the modem hangs up and returns the 
+NO ANSWER result code. If it detects the five seconds of silence, the modem 
+processes the remaining characters in the dial string. Note that the modem 
+does not listen for silence until it first detects dial tone and some other 
+signal, such as a ringing signal, that lasts longer than 210 milliseconds. For 
+example, to dial 1552368, wait for a quiet answer, then dial a security code 
+85939, wait for a second dial tone, and dial extension 423 you would issue the 
+following command: ATDT 1552368 @ 85939 W 423 <CR>.
+
+! - Timed Break Recall (Hookflash)
+The ! dial modifier issues a timed break recall signal, which causes the modem 
+to hang up for 75 milliseconds, then reconnect. This feature can be used to 
+access such PBX features as call transfer.
+
+; - Return to Command State after Dialing
+The semicolon (;) dial modifier, used only at the end of a command line (just 
+before the <CR>), instructs the modem to return to the command state 
+immediately after dialing, without breaking the connection. 
+
+The ; is useful when calling an electronic service, such as that offered by a 
+bank, that permits you to use tones to transmit numbers once a connection has 
+been established. The modem can send tones even if your telephone cannot. The 
+example below illustrates the use of the semicolon modifier in communications 
+with an electronic banking service.
+
+ATDP 1552368; <CR>  Dials bank using pulse method
+
+OK  Command executed, but keeps the modem in command state (no carrier 
+handshake takes place)
+
+ATDT 4768; <CR>  Sends an ID code via tones and maintains modem in command 
+state.
+
+OK  Modem in command state; command executed.
+
+In this example, the ; differs from the +++ in that the escape sequence places 
+the modem in the command state only when two modems have completed a 
+handshake. The semicolon keeps the modem in command state; no CONNECT XXXXX 
+result code is displayed.
+
+DS=n - Dialing a Stored Telephone Number
+A stored number can be dialed from an asynchronous terminal by following the 
+dial (D) command with the S modifier, an equal sign, and the location of the 
+stored number (see &Zn=x command at the end of this section). The format of 
+the modifier is S=n, where n is location 0-3. If ATDS=2<CR> were issued, for 
+example, the modem would dial the string stored in memory location three of 
+its "telephone book."
+
+R - Originate a Call in Answer Mode 
+The dial modifier R (Reverse mode) enables the modem to dial an originate- 
+only modem by placing a call in answer mode. This modifier must be entered at 
+the end of the dialling (D) command string, before the <CR>.
+The R modifier directs the modem to act as if it had been sent an A command in 
+that part of the command string. 
+
+E - Command State Character Echo Selection
+The E command determines whether characters are echoed to the DTE from the 
+modem when it is command state. Some computers and terminals do not send the 
+characters you type to the screen; they only transmit them to the remote 
+system through the serial port. In this case, if Command State character echo 
+were not enabled by the modem, you would be unable to see what you type. If 
+the DTE does echo the characters you type in command state, and this function 
+is enabled in the modem, each character typed will appear twice.
+
+Chorus
+
+Yes and there were Union men
+ Who wept with joyful tears,
+When they saw the honored flag
+ They had not seen for years;
+Hardly could they be restrained
+ From breaking forth in cheers,
+While we were marching through Georgia
+
+Chorus
+
+"Sherman's dashing Yankee boys
+ Will never make the coast!"
+So the saucy rebels said
+ and 'twas a handsome boast
+Had they not forgot, alas!
+ To reckon with the Host
+While we were marching through Georgia
+
+Chorus
+
+So we made a thoroughfare for
+ Freedom and her train,
+Sixty miles of latitude
+
+
+ Three hundred to the main;
+Treason fled before us,
+ For resistance was in vain
+While we were marching through Georgia
+ALL QUIET ALONG THE POTOMAC TONIGHT - Lyics: Ethel Beers
+                                      Music: John Hewitt
+                                      1863
+"All quiet along the Potomac tonight,"
+ Except here and there a stray picket;
+Is shot as he walks on his beat to and fro,
+ By a rifleman hid in the thicket;
+Tis nothing! a private or two now and then,
+ Will not count in the new of the battle,
+Not an officer lost! only one of the men
+ Moaning out all alone the death rattle.
+"All quiet along the Potomac tonight!"
+
+"All quiet along the Potomac tonight,"
+ Where the soldiers lie peacefully dreaming,
+And the tents in the rays of the clear Autumn moon,
+ And the light of the campfires are gleaming;
+There's only the sound of the lone sentry's tread,
+ As he tramps from the rock to the fountain,
+And thinks of the two on the low trundle bed,
+ Far away in the cot on the mountain.
+"All quiet along the Potomac tonight,"
+
+His musket falls slack-his face dark and grim,
+ Grows gentle with memories tender,
+As he mutters a pray'r for the children asleep
+ And their mother "May heaven defend her!"
+The moon seems to shine as brightly as then
+ That night, when the love yet unspoken,
+Leap'd up to his lips, and when low murmur'd vows,
+ Were pledg'd to be ever unbroken
+"All quiet along the Potomac tonight,"
+
+Then drawing his sleeve roughly o'er his eyes,
+ He dashes off the tears that are welling,
+And gathers his gun close up to his breast,
+ As if to keep down the heart's swelling;
+He passes the fountain, the blasted pine tree,
+ And his footstep is lagging and weary,
+Yet onward he goes thro' the broad belt of light,
+ Toward the shades of the forest so dreary
+"All quiet along the Potomac tonight,"
+
+Hark! was it the nightwind that rustles the leaves!
+ Was it the moonlight so wond'rously flashing?
+It look'd like a rifle! "Ha! Mary goodbye!"
+ And his lifeblood is ebbing and plashing,
+"All quiet along the Potomac tonight",
+ No sound save the rush of the river,
+While soft falls the dew on the face of the dead,
+ The picket's off duty forever
+"All quiet along the Potomac tonight,"
+
+THE VACANT CHAIR  - George F. Root, 1862
+
+We shall meet, but we shall miss him,
+ there will be one vacant chair;
+We shall linger to caress him,
+ While we breath our eveneing prayer
+When a year ago we gathered,
+ Joy was in his mild blue eye;
+But a golden chord is severed,
+ And our hopes in ruin lie.
+
+Chorus:
+We shall meet, but we shall miss him,
+ There will be one vacant chair;
+We shall linger to caress him,
+ When we breath our evening prayer.
+
+At our fireside, sad and lonely,
+ Often will the bosom swell;
+At remembrence of the story,
+ How our noble Willie fell;
+How he strove to bear our banner
+ Thro' the thickest of the fight,
+And uphold our country's honor,
+ In the strength of manhood's might.
+
+Chorus:
+
+True they tell us wreaths of glory,
+ Evermore will deck his brow,
+But this smooths the anguish only
+ Sweeping o'er our heartstrings now.
+Sleep today, o early fallen,
+ In thy green and narrow bed,
+Dirges from the pine and cypress,
+ Mingle with the tears we shed.
+
+Chorus
+
+
