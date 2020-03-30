@@ -18,11 +18,10 @@ with open(src,"r") as fin:
     paragraphs = re.split(delimiters, contents)
 # remove common words from each paragraph
 for paragraph in paragraphs:
-    src_words = [word for word in paragraph.split(" ") 
+    src_words = [word for word in paragraph.split() 
                  if not word.lower() in comm_words]
     paragraph = " ".join(src_words)
 # reform into original structure
 with open(out + "cleaned.txt","w") as fout:
     for paragraph in paragraphs:
-        fout.write(paragraph)
-        fout.write("\n\n")
+        fout.write(paragraph + "\n\n")
