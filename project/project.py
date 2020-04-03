@@ -16,7 +16,6 @@ def efficient(file, lcs_threshold, commonality_threshold):
         
         # run KMP on each corpus file with each input sentence as a pattern
         for sentence in getSentences(ift):
-            print(sentence + '\n')
             # if a match is found add sentence length to commonality and remove sentence from cft
             if KMP(cft, sentence):
                 commonality += len(getWords(sentence))
@@ -28,7 +27,6 @@ def efficient(file, lcs_threshold, commonality_threshold):
             continue
         
         # run LCS on each input-corpus paragraph pair
-        print('lcs')
         ifp = getParagraphs(ift)
         cfp = getParagraphs(cft)
         for input_paragraph in ifp:
@@ -75,8 +73,6 @@ def bruteForce(file, threshold):
 
 # KMP and prefixFunction methods are adapted from CLSR pages 1005-1006
 # Returns true if a match is found
-
-
 def KMP(txt, ptrn):
     txt = getWords(txt)
     ptrn = getWords(ptrn)
@@ -90,9 +86,9 @@ def KMP(txt, ptrn):
         if ptrn[q] == txt[i]:
             q = q + 1
         if q == M:
-            # print("index = " + str(i-M+1)) #print index of match
+            #print("index = " + str(i-M+1)) #print index of match
             return True
-            q = lps[q-1]
+            #q = lps[q-1] #for finding next match
     return False
 
 
@@ -101,7 +97,7 @@ def prefixFunction(ptrn):
     lps = [0]*M
     k = -1
     for i in range(2, M):
-        while k >= 0 and ptrn[k] != ptrn[i]:
+        while k > 0 and ptrn[k] != ptrn[i]:
             k = lps[k]
         if ptrn[k] == ptrn[i]:
             k = k + 1
@@ -112,7 +108,6 @@ def prefixFunction(ptrn):
 
 
 def LCS(txt1, txt2):
-    print('LCS')
     txt1 = getWords(txt1)
     txt2 = getWords(txt2)
     # find the length of the strings
@@ -200,5 +195,4 @@ sentence_threshold = 2
 lcs_threshold = 7
 commonality_threshold = 20
 print(efficient(input_file, lcs_threshold, commonality_threshold))
-# removeCommonWords(input_file, 50)
 print('done')
