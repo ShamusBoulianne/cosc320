@@ -104,9 +104,53 @@ def prefixFunction(ptrn):
         lps[i] = k
     return lps
 
+def RabinKarp(txt, ptrn, q):
+    M = len(ptrn) 
+    N = len(txt) 
+    d = 256  #size of alphabet
+    i = 0
+    j = 0
+    p = 0    # hash value for pattern 
+    t = 0    # hash value for txt 
+    h = 1
+  
+    # The value of h would be "pow(d, M-1)% q" 
+    for i in range(M-1): 
+        h = (h * d)% q 
+  
+    # Calculate the hash value of pattern and first window 
+    # of text 
+    for i in range(M): 
+        p = (d * p + ord(ptrn[i]))% q 
+        t = (d * t + ord(txt[i]))% q 
+  
+    # Slide the pattern over text one by one 
+    for i in range(N-M + 1): 
+        # Check the hash values of current window of text and 
+        # pattern if the hash values match then only check 
+        # for characters on by one 
+        if p == t: 
+            # Check for characters one by one 
+            for j in range(M): 
+                if txt[i + j] != ptrn[j]: 
+                    break
+  
+            j+= 1
+            # if p == t and pat[0...M-1] = txt[i, i + 1, ...i + M-1] 
+            if j == M: 
+                print("Pattern found at index " + str(i)) 
+  
+        # Calculate hash value for next window of text: Remove 
+        # leading digit, add trailing digit 
+        if i < N-M: 
+            t = (d*(t-ord(txt[i])*h) + ord(txt[i + M]))% q 
+  
+            # We might get negative values of t, converting it to 
+            # positive 
+            if t < 0: 
+                t = t + q
+
 # LCS function is adapted from https://www.geeksforgeeks.org/python-program-for-longest-common-subsequence/
-
-
 def LCS(txt1, txt2):
     txt1 = getWords(txt1)
     txt2 = getWords(txt2)
@@ -148,7 +192,7 @@ def removeCommonWords(file, n):
         if line == "\n":
             keep_words += line + '\n'
         else:
-            for word in line.split():
+            for word in getWords(line):
                 word = word.lower()
                 if not word in comm_words:
                     keep_words += " " + word
@@ -183,7 +227,7 @@ def getSentences(paragraph):
 
 
 def getWords(txt):
-    delimiters = "\.|\?|!| |,|;|:|\'|\""
+    delimiters = "\.|\?|!| |,|;|:|\'|\"|\*"
     words = [w.strip() for w in re.split(delimiters, txt) if len(w) > 1]
     return words
 
@@ -195,4 +239,5 @@ sentence_threshold = 2
 lcs_threshold = 7
 commonality_threshold = 20
 print(efficient(input_file, lcs_threshold, commonality_threshold))
+#print(removeCommonWords('asp9301.txt', 50))
 print('done')
