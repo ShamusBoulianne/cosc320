@@ -107,6 +107,8 @@ def prefixFunction(ptrn):
 def RabinKarp(txt, ptrn, q):
     M = len(ptrn) 
     N = len(txt) 
+    if(M>N):
+        return False
     d = 256  #size of alphabet
     i = 0
     j = 0
@@ -137,8 +139,9 @@ def RabinKarp(txt, ptrn, q):
   
             j+= 1
             # if p == t and pat[0...M-1] = txt[i, i + 1, ...i + M-1] 
-            if j == M: 
-                print("Pattern found at index " + str(i)) 
+            if j == M:
+                return True
+                #print("Pattern found at index " + str(i)) 
   
         # Calculate hash value for next window of text: Remove 
         # leading digit, add trailing digit 
@@ -149,6 +152,7 @@ def RabinKarp(txt, ptrn, q):
             # positive 
             if t < 0: 
                 t = t + q
+    return False
 
 # LCS function is adapted from https://www.geeksforgeeks.org/python-program-for-longest-common-subsequence/
 def LCS(txt1, txt2):
