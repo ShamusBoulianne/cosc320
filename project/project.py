@@ -1,6 +1,6 @@
 import re
-from os import listdir
-
+from os import listdir, remove
+from time import time
 
 def efficient(file, lcs_threshold, commonality_threshold):
     # output will be a list of corpus files from which the input file is plagiarized
@@ -10,6 +10,7 @@ def efficient(file, lcs_threshold, commonality_threshold):
     corpus = [f for f in listdir('data/master') if f != file]
     
     for corpus_file in corpus:
+        #start = time()
         print(corpus_file)
         cft = removeCommonWords(corpus_file, n_most_common)
         commonality = 0
@@ -201,7 +202,6 @@ def removeCommonWords(file, n):
                 if not word in comm_words:
                     keep_words += " " + word
     return keep_words
-
 
 def fileToString(file):
     # get file contents as a string
