@@ -4,7 +4,6 @@ from time import time
 
 def efficient(file, lcs_threshold, commonality_threshold):
     # output will be a list of corpus files from which the input file is plagiarized
-    start = time()
     output = []
     n_most_common = 50
     ift = removeCommonWords(file, n_most_common)
@@ -42,8 +41,6 @@ def efficient(file, lcs_threshold, commonality_threshold):
             # remove corpus_file from corpus and add it to output
             corpus.remove(corpus_file)
             output.append(corpus_file)
-    end = time()
-    print(str(end-start/60.0))
     return output
 
 
