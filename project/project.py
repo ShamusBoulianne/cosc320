@@ -8,9 +8,7 @@ def efficient(file, lcs_threshold, commonality_threshold):
     n_most_common = 50
     ift = removeCommonWords(file, n_most_common)
     corpus = [f for f in listdir('data/master') if f != file]
-    
     for corpus_file in corpus:
-        #start = time()
         print(corpus_file)
         cft = removeCommonWords(corpus_file, n_most_common)
         commonality = 0
@@ -20,10 +18,11 @@ def efficient(file, lcs_threshold, commonality_threshold):
             # if a match is found add sentence length to commonality and remove sentence from cft
             if KMP(cft, sentence):
                 commonality += len(getWords(sentence))
+                if commonality >= commonality_threshold:
+                    break
                 cft = cft.replace(sentence, " ")
         if commonality >= commonality_threshold:
-            # remove corpus_file from corpus and add it to output
-            corpus.remove(corpus_file)
+            # add corpus file to output
             output.append(corpus_file)
             continue
         
@@ -34,12 +33,11 @@ def efficient(file, lcs_threshold, commonality_threshold):
             for corpus_paragraph in cfp:
                 lcs = LCS(corpus_paragraph, input_paragraph)
                 if lcs >= lcs_threshold:
-                    # eliminate paragraph from cfp
-                    cfp.remove(corpus_paragraph)
-                commonality += lcs
+                    commonality += lcs
+                    if commonality >= commonality_threshold:
+                        break
         if commonality >= commonality_threshold:
-            # remove corpus_file from corpus and add it to output
-            corpus.remove(corpus_file)
+            # add corpus_file to output
             output.append(corpus_file)
     return output
 
@@ -238,10 +236,10 @@ def getWords(txt):
 
 print('running:')
 input_file = 'EXAMPLE-PLAGIARIZED-DOC.txt'
-sentence_threshold = 2
-# print(bruteForce(input_file, sentence_threshold))
-lcs_threshold = 7
-commonality_threshold = 20
+sentence_threshold = 5
+print(bruteForce(input_file, sentence_threshold))
+lcs_threshold = 20
+commonality_threshold = 50
 print(efficient(input_file, lcs_threshold, commonality_threshold))
 #print(removeCommonWords('asp9301.txt', 50))
 print('done')
